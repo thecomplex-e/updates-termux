@@ -16,12 +16,14 @@ cd ~/
 pkg update -y && pkg upgade -y
 pkg install ipv6toolkit -y
 pkg install patch -y
+clear
 pkg install python -y
 pkg install x11-repo -y
 clear
 pkg install root-repo -y
 pkg install wireless-tools -y
 pkg install net-tools -y
+clear
 pkg install git -y
 pkg install curl -y
 clear
@@ -32,6 +34,7 @@ clear
 pkg install python3 -y
 pkg install openssh -y
 pkg install openssl -y
+clear
 pkg install php -y
 clear
 pkg install nmap -y
@@ -39,11 +42,12 @@ clear
 pkg install termux-tools -y
 pkg install termux-api -y
 pkg install python-pip -y
+pkg install mc -y
 pkg update -y && pkg upgrade -y
 clear
 bash
 echo "se uma ferramenta nao iniciar, de update denovo"
-
+echo "use termux-change-repo para adiconar repositorios especiais"
 else
   echo "ok"
 fi
